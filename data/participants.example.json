@@ -1,0 +1,40 @@
+{
+  "_comment": "MOCK / ORNEK katilimci kayit defteri. Gercek kullanimda bu dosyayi 'participants.json' adiyla kopyalayip kendi ekibinizle doldurun. 'participants.json' dosyasi .gitignore icinde — kisisel / kurumsal veri push edilmez. Bu ornek dosya, skill'in bekledigi semayi ve siralama mantigini gostermek icindir.",
+  "_unit_order": ["FIRMA-A", "FIRMA-B", "FIRMA-C", "FIRMA-D", "FIRMA-E", "FIRMA-F"],
+  "_title_rank": ["Direktor", "Daire Baskani", "Daire Baskan Yardimcisi", "Program Yoneticisi", "Sube Muduru", "Proje Yoneticisi", "Teknik Lider", "Kidemli Uzman", "Uzman", "Is Analisti", "Yazilim Analiz Uzmani", "Veri Ambari Uzmani", "Yazilim Uzmani", "Veri Muhendisi", "Proje Muhendisi"],
+  "participants": [
+    { "name": "Ada Yilmaz",          "unit": "FIRMA-A", "title": "Bilgi Teknolojileri Daire Baskani",             "aliases": ["Ada"] },
+    { "name": "Baris Demir",         "unit": "FIRMA-A", "title": "Strateji ve Kurumsal Gelisim Daire Baskani",    "aliases": [] },
+    { "name": "Cemre Aydin",         "unit": "FIRMA-A", "title": "Bilisim Teknolojileri Daire Baskan Yardimcisi", "aliases": ["Cemre"] },
+    { "name": "Deniz Kara",          "unit": "FIRMA-A", "title": "Veri Yonetimi Sube Muduru",                     "aliases": ["Deniz"] },
+    { "name": "Efe Sahin",           "unit": "FIRMA-A", "title": "Musteri Iliskileri Yonetim Sube Muduru",        "aliases": ["Efe"] },
+    { "name": "Feyza Ozturk",        "unit": "FIRMA-A", "title": "Is Analisti",                                   "aliases": ["Feyza"] },
+    { "name": "Gokhan Acar",         "unit": "FIRMA-A", "title": "Is Analisti",                                   "aliases": ["Gokhan"] },
+
+    { "name": "Hale Kaya",           "unit": "FIRMA-B", "title": "Proje Muhendisi", "aliases": ["Hale"] },
+    { "name": "Ibrahim Koc",         "unit": "FIRMA-B", "title": "Proje Muhendisi", "aliases": ["Ibrahim"] },
+    { "name": "Jale Arslan",         "unit": "FIRMA-B", "title": "Proje Muhendisi", "aliases": ["Jale"] },
+
+    { "name": "Kaan Erdogan",        "unit": "FIRMA-C", "title": "Program Yoneticisi", "aliases": ["Kaan"] },
+    { "name": "Lara Gunes",          "unit": "FIRMA-C", "title": "Proje Yoneticisi",   "aliases": ["Lara"] },
+    { "name": "Mert Turan",          "unit": "FIRMA-C", "title": "Proje Yoneticisi",   "aliases": ["Mert"] },
+
+    { "name": "Naz Tekin",           "unit": "FIRMA-D", "title": "Proje Yoneticisi", "aliases": ["Naz"] },
+    { "name": "Oguz Pamuk",          "unit": "FIRMA-D", "title": "Teknik Lider",     "aliases": ["Oguz"] },
+    { "name": "Pelin Cetin",         "unit": "FIRMA-D", "title": "Teknik Lider",     "aliases": ["Pelin"] },
+    { "name": "Ruya Bayram",         "unit": "FIRMA-D", "title": "Kidemli Uzman",    "aliases": ["Ruya"] },
+    { "name": "Serkan Unal",         "unit": "FIRMA-D", "title": "Is Analisti",      "aliases": ["Serkan"] },
+    { "name": "Tugce Aksoy",         "unit": "FIRMA-D", "title": "Is Analisti",      "aliases": ["Tugce"] },
+    { "name": "Umut Ergin",          "unit": "FIRMA-D", "title": "Is Analisti",      "aliases": ["Umut"] },
+    { "name": "Veli Dogan",          "unit": "FIRMA-D", "title": "Veri Muhendisi",   "aliases": ["Veli"] },
+
+    { "name": "Yasemin Kurt",        "unit": "FIRMA-E", "title": "Direktor",           "aliases": ["Yasemin"] },
+    { "name": "Zeynep Guler",        "unit": "FIRMA-E", "title": "Program Yoneticisi", "aliases": ["Zeynep"] },
+    { "name": "Alper Bolat",         "unit": "FIRMA-E", "title": "Proje Yoneticisi",   "aliases": ["Alper"] },
+
+    { "name": "Berkay Toprak",       "unit": "FIRMA-F", "title": "Kamu Satis Direktoru",   "aliases": ["Berkay"] },
+    { "name": "Ceren Yildirim",      "unit": "FIRMA-F", "title": "Kamu Sektor Yoneticisi", "aliases": ["Ceren"] },
+    { "name": "Doruk Celik",         "unit": "FIRMA-F", "title": "Veri Ambari Uzmani",     "aliases": ["Doruk"] },
+    { "name": "Elif Sonmez",         "unit": "FIRMA-F", "title": "Yazilim Uzmani",         "aliases": ["Elif"] }
+  ]
+}

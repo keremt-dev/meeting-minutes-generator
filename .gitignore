@@ -1,0 +1,37 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---------- Agent / IDE local state ----------
+.claude/
+.gemini/
+.codex/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---------- OS artefaktları ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Skill'in ürettiği geçici & çıktı dosyaları ----------
+# Çalışma anında yazılan ara JSON (template'e gönderilen veri)
+meeting_data.json
+*.tmp.json
+
+# ---------- Kisisel / kurumsal veri ----------
+# Gercek katilimci kayit defteri push edilmez; repoda sadece participants.example.json bulunur.
+data/participants.json
+
+
+
+# ---------- Dağıtım ----------
+dist/
+build/
