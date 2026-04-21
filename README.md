@@ -1,6 +1,6 @@
 # Meeting Docx Generator
 
-TCDD BVA projesi için toplantı notlarından resmi Word (.docx) formatında toplantı tutanağı üreten Claude skill'i.
+BVA projesi için toplantı notlarından resmi Word (.docx) formatında toplantı tutanağı üreten Claude skill'i.
 
 ## Ne yapar
 
