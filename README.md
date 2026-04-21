@@ -9,7 +9,7 @@ Kullanıcı toplantı metnini ve (opsiyonel) katılımcı listesini paylaştığ
 - Ham metinden konuşulan konuları ve aksiyon maddelerini yapısal olarak çıkarır
 - Göreli tarihleri ("önümüzdeki hafta cuma") mutlak tarihe çevirir
 - Markdown önizleme sunup onay ister
-- TCDD BVA şablonuna uyumlu .docx üretir ve doğrular
+- BVA şablonuna uyumlu .docx üretir ve doğrular
 
 ## Çalışma akışı (6 adım)
 
@@ -101,7 +101,7 @@ meeting-minutes-generator/
 ├── SKILL.md                    # Ana yönerge (Claude'un okuduğu)
 ├── README.md                   # Bu dosya
 ├── assets/
-│   └── template.docx           # TCDD BVA resmi şablon (Tahoma, A4)
+│   └── template.docx           #  BVA resmi şablon (Tahoma, A4)
 ├── scripts/
 │   └── generate_minutes.py     # JSON + template → docx üretici
 ├── data/
@@ -120,7 +120,6 @@ meeting-minutes-generator/
 |------|-------|
 | **Katılımcı kaynağı** | Kullanıcı ayrı liste verdiyse → liste öncelikli (transkriptteki ek isimler eklenmez). Liste yoksa → konuşmalardan çıkar. |
 | **Registry lookup** | İsim `participants.json`'da (name + aliases, TR-karakter/case duyarsız) aranır. Bulunamazsa kullanıcıya sorulur, cevap registry'e eklenir. |
-| **Sıralama** | Firma öncelik: TCDD → UDHAM → TÜRKSAT → PROLİNE-PİA → PROLINE → PIA GRUP. Firma içinde ünvan kıdemi (Direktör > Daire Başkanı > ... > Mühendis). |
 | **Konu vs aksiyon** | Konu = toplantıda konuşulan/aktarılan şey (geçmiş/şimdiki). Aksiyon = toplantı sonrası yapılacak iş (gelecek zaman + sorumlu). |
 | **Karar maddeleri** | İlgili topic'in `items`'ına `"Karar: ..."` öneki ile eklenir (ayrı alan yok). |
 | **Aksiyon numaralandırma** | `M01`, `M02`... sıralı, iki haneli. |
@@ -129,8 +128,8 @@ meeting-minutes-generator/
 
 ## Şablon hakkında
 
-`assets/template.docx` TCDD BVA standart tutanak formatı:
-- Üst bilgi: TCDD logosu + doküman bilgileri
+`assets/template.docx`  BVA standart tutanak formatı:
+- Üst bilgi:  logosu + doküman bilgileri
 - TOPLANTI ADI / TARİH / SAAT / YER blokları
 - KATILIMCILAR tablosu (NO / ADI SOYADI / BİRİM-KURUM / UNVAN)
 - GÖRÜŞÜLEN KONULAR (numaralı başlıklar + bullet maddeler)
